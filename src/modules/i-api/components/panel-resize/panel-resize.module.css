@@ -1,0 +1,29 @@
+.ResizeHandleOuter {
+    flex: 0 0 1.5rem;
+    position: relative;
+    outline: none;
+    --background-color: grey;
+    --background-color: transparent;
+}
+
+.ResizeHandleOuter[data-resize-handle-active] {
+    --background-color: grey;
+    --background-color: transparent;
+}
+
+.ResizeHandleInner {
+    position: absolute;
+    top: 0.5em;
+    bottom: 0.5em;
+    left: 0.5em;
+    right: 0.5em;
+    border-radius: 0.5em;
+    background-color: #f1f5f9;
+    transition: background-color 0.2s linear;
+    display: flex;
+    align-items: center;
+}
+
+.ResizeHandleInner svg {
+    transform: rotate(90deg) scale(1.5);
+}

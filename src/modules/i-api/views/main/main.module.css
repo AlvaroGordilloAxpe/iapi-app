@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 89.1vh;
+    background: #fff url('/main_background.jpg') left 0% top 39% / 100% 118%;
+    overflow: hidden;
+}
+
+.title {
+    font-size: 5rem;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 0.5rem;
+    color: #fff;
+    margin-top: 4rem;
+}
+
+.subtitle {
+    font-size: 1rem;
+    line-height: 1;
+    font-weight: 400;
+    color: #f1f5f9;
+    margin-left: -2rem;
+    letter-spacing: 0.15rem;
+}

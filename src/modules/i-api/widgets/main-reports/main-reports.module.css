@@ -1,0 +1,35 @@
+.main {
+    flex-grow: 1;
+    display: grid;
+    width: 100%;
+    grid-template-rows: 1fr;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+
+.TopRow {
+    display: flex;
+    justify-content: start;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+}
+
+.BottomRow {
+    flex: 1 1 auto;
+}
+
+.Panel {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 12rem);
+}
+
+.PanelContent {
+    height: 100%;
+    width: 100%;
+    background-color: var(--color-panel-background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}

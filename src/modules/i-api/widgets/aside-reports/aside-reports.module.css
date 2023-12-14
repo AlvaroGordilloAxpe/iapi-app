@@ -1,0 +1,31 @@
+.sidebarItem {
+    display: flex;
+    padding: 0.375rem 0.5rem;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.sidebarItemSelected {
+    background-color: #f1f5f9;
+    color: #0f172a;
+    font-size: 1.1rem;
+}
+
+.asideText:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.asideDelete {
+    transform: scale(0.7);
+}
+
+.asideDelete:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.sidebarItemSelected > .asideDelete {
+    fill: #0f172a;
+}
